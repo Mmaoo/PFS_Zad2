@@ -6,7 +6,7 @@ on:
 
 jobs:
   build-push-images:
-    name: Budowa i publikacja obrazw na repozytorium
+    name: PFSwCHO Zadanie 2.1
     runs-on: ubuntu-latest
 
     steps:
@@ -33,5 +33,4 @@ jobs:
           file: ./dockerfile.v1
           push: true
           tags: |
-            spg51/lab:ghfront1
-          
+            mmaoo/lab:zad2
