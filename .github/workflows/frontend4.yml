@@ -33,6 +33,6 @@ jobs:
           push: true
           tags: |
             mmaoo/lab:zad2.4
-          cache-from: type=registry,ref=mmaoo/lab:zad2
-          cache-to: type=inline
+          cache-from: type=registry,ref=mmaoo/lab:zad2.4cache
+          cache-to: type=registry,ref=mmaoo/lab:zad2.4cache,mode=max
 
