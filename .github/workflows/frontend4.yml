@@ -1,4 +1,4 @@
-name: GitHub Action flow to Docker hub 
+name: PFSwCHO Zadanie 2.4
 
 on:
   push:
@@ -6,7 +6,7 @@ on:
 
 jobs:
   build-push-images:
-    name: PFSwCHO Zadanie 2.1
+    name: PFSwCHO Zadanie 2.4
     runs-on: ubuntu-latest
 
     steps:

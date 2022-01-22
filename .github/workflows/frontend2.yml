@@ -1,4 +1,4 @@
-name: GitHub Action flow to Docker hub 
+name: PFSwCHO Zadanie 2.2
 
 on:
   push:
